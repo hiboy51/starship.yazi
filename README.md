@@ -2,26 +2,28 @@
 
 Starship prompt plugin for [Yazi](https://github.com/sxyazi/yazi)
 
+> Fork of [Rolv-Apneseth/starship.yazi](https://github.com/Rolv-Apneseth/starship.yazi) with the Yazi 26.8+ plugin API (`Url.spec.is_regular`).
+
 <https://github.com/Rolv-Apneseth/starship.yazi/assets/69486699/f7314687-5cb1-4d66-8d9d-cca960ba6716>
 
 ## Requirements
 
-- [Yazi](https://github.com/sxyazi/yazi) (v25.4.8+)
+- [Yazi](https://github.com/sxyazi/yazi) (v26.8.15+)
 - [starship](https://github.com/starship/starship)
 
 ## Installation
 
 ```bash
-ya pkg add Rolv-Apneseth/starship
+ya pkg add hiboy51/starship
 ```
 
 ### Manual
 
 ```sh
 # Linux / MacOS
-git clone https://github.com/Rolv-Apneseth/starship.yazi.git ~/.config/yazi/plugins/starship.yazi
+git clone https://github.com/hiboy51/starship.yazi.git ~/.config/yazi/plugins/starship.yazi
 # Windows
-git clone https://github.com/Rolv-Apneseth/starship.yazi.git %AppData%\yazi\config\plugins\starship.yazi
+git clone https://github.com/hiboy51/starship.yazi.git %AppData%\yazi\config\plugins\starship.yazi
 ```
 
 ## Usage

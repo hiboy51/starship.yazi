@@ -1,4 +1,4 @@
---- @since 25.4.8
+--- @since 26.8.15
 
 -- For development
 --[[ local function notify(message) ]]
@@ -49,7 +49,8 @@ return {
         if args ~= nil then
             if args.config_file ~= nil then
                 local url = Url(args.config_file)
-                if url.is_regular then
+                -- Yazi 26.8.15 起 Url.is_regular 已弃用，改用 Url.spec.is_regular
+                if url.spec.is_regular then
                     local config_file = args.config_file
 
                     -- Manually replace '~' and '$HOME' at the start of the path with the OS environment variable
