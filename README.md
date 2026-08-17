@@ -13,17 +13,22 @@ Starship prompt plugin for [Yazi](https://github.com/sxyazi/yazi)
 
 ## Installation
 
-```bash
-ya pkg add hiboy51/starship
-```
-
-### Manual
+This fork is installed as a **local plugin** so `ya pkg upgrade` will not overwrite the API fix.
 
 ```sh
+# Remove the upstream package first (if you installed it with ya pkg)
+ya pkg delete Rolv-Apneseth/starship
+
 # Linux / MacOS
-git clone https://github.com/hiboy51/starship.yazi.git ~/.config/yazi/plugins/starship.yazi
+# Place this repository at ~/.config/yazi/plugins/starship.yazi
 # Windows
-git clone https://github.com/hiboy51/starship.yazi.git %AppData%\yazi\config\plugins\starship.yazi
+# Place this repository at %AppData%\yazi\config\plugins\starship.yazi
+```
+
+Upstream package (unpatched):
+
+```bash
+ya pkg add Rolv-Apneseth/starship
 ```
 
 ## Usage
